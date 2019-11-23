@@ -1,0 +1,67 @@
+/**
+Primary colors
+#966758
+#00277d 
+*/
+.navWrap {
+	padding: 8px 0px;
+	width: 100%;
+	box-shadow: #00000030 -9px 2px 12px 0px;
+	border-radius: 0px;
+}
+nav h1 {
+	color: #00277d;
+}
+button,
+.button {
+	padding: 5px 12px;
+	background: #966758;
+	border: solid 0px;
+	box-sizing: border-box;
+	outline: none;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.button:hover {
+	box-shadow: 4px 2px 17px 5px #96675854;
+	transition-duration: 0.4s;
+	background: #966758eb;
+	transform: translate(1px, 1px);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+p {
+	margin: 7px 0;
+}
+.bg1 {
+	background: #966758;
+	color: white;
+}
+.main {
+	margin-top: 35px;
+}
+
+.avatar {
+	widows: 50px;
+	height: 50px;
+	background: white;
+}
+.userContainer {
+	padding: 22px 20px;
+	border-radius: 5px;
+	margin: 5px 0;
+	align-items: center;
+}

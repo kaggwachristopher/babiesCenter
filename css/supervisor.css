@@ -1,0 +1,22 @@
+input,
+select {
+	width: 100%;
+	margin: 5px 0;
+	font-size: 18px !important;
+	padding: 8px 15px !important;
+}
+.sm-4 img {
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+}
+
+@media (max-width: 768px) {
+	.mainRow {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.sm-4 img {
+		max-height: 500px;
+	}
+}

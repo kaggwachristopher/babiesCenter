@@ -1,0 +1,14 @@
+/**
+Primary colors
+#966758
+#00277d 
+*/
+body {
+	background: url(../images/sleeping.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading {
+	color: #966758;
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Supervisor</title>
+        <link rel="stylesheet" href="./css/grid.min.css" />
+        <link rel="stylesheet" href="./css/baby.css" />
+        <link rel="stylesheet" href="./css/official.css" />
+    </head>
+
+    <body>
+        <nav class="grid">
+            <div class="flex jc-between ai-center navWrap">
+                <h1>
+                    JBC
+                </h1>
+                <a href="./index.html" class="button">Signout</a>
+            </div>
+        </nav>
+        <div class="grid main">
+            <fieldset>
+                <legend class="full">
+                    <div class="tab flex jc-around">
+                        <button class="tablinks button" id="tab1" onclick="tabbed_menu(event, 'receipts')">Receipts</button>
+                        <button class="tablinks button" id="tab2" onclick="tabbed_menu(event, 'sitters')">Sitters</button>
+                        <button class="tablinks button" id="tab3" onclick="tabbed_menu(event, 'babies')">Babies</button>
+                        <button class="tablinks button" id="tab3" onclick="tabbed_menu(event, 'customers')">Customers</button>
+                    </div>
+                </legend>
+                <div id="receipts" class="tabcontent grid">
+                    <div class="row">
+                        <div class="md-6">
+                            <fieldset>
+                                <legend>Morning</legend>
+                            </fieldset>
+                        </div>
+                        <div class="md-6">
+                            <fieldset>
+                                <legend>Afternoon</legend>
+                            </fieldset>
+                        </div>
+
+
+                    </div>
+                    <div class="row">
+                        <div class="md-6">
+                            <fieldset>
+                                <legend>Evening</legend>
+                            </fieldset>
+                        </div>
+                        <div class="md-6">
+                            <fieldset>
+                                <legend>Total</legend>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sitters" class="tabcontent">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div id="babies" class="tabcontent">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="customers" class="tabcontent">
+                    <div class="grid">
+                        <div class="row">
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                            <div class="md-6">
+                                <a href="#" class="userContainer bg1 flex button">
+                                    <div class="xs-2">
+                                        <img src="./images/avatar.jpg" alt="Image not found" class="avatar round" />
+                                    </div>
+                                    <div class="xs-7 flex ai-center jc-between">
+                                        <h3>Nakirijja Annet</h3>
+                                    </div>
+                                    <h5 class="xs-3 text-right">MG7503</h5>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </fieldset>
+
+
+        </div>
+        <script src="./js/tab.js"></script>
+    </body>
+
+</html>

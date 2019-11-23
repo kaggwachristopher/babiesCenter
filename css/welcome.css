@@ -1,0 +1,42 @@
+html{
+    background: url(../images/sleeping.jfif);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+body{
+    background: #0000007a;
+    position: absolute;
+    width: 100%;
+    color: white;
+}
+.main{
+    min-height: inherit;
+    margin: 0;
+}
+.text{
+    width: 50%;
+    text-align: center;
+}
+h1{
+font-size: 45px;
+}
+p{
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 15px;
+}
+@media(max-width:576px){
+    .buttons{
+        flex-direction: column;
+    }
+    .buttons a{
+        margin: 2px 0;
+    }
+}
+@media(min-width:700px){
+    .text{
+        width:40%
+    }
+}
