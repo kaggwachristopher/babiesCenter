@@ -1,42 +1,48 @@
-html{
-    background: url(../images/sleeping.jfif);
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+html {
+  background: url(../images/sleeping.jfif);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
 }
-body{
-    background: #0000007a;
-    position: absolute;
-    width: 100%;
-    color: white;
+body {
+  background: #a920205e;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
-.main{
-    min-height: inherit;
-    margin: 0;
+body * {
+  color: #fff;
 }
-.text{
-    width: 50%;
-    text-align: center;
+.main {
+  height: inherit;
+  margin: 0;
 }
-h1{
-font-size: 45px;
+.text {
+  width: 50%;
+  text-align: center;
 }
-p{
-    font-size: 20px;
+h1 {
+  font-size: 45px;
 }
-.buttons{
-    margin-top: 15px;
+p {
+  font-size: 20px;
 }
-@media(max-width:576px){
-    .buttons{
-        flex-direction: column;
-    }
-    .buttons a{
-        margin: 2px 0;
-    }
+.buttons {
+  margin-top: 15px;
 }
-@media(min-width:700px){
-    .text{
-        width:40%
-    }
+@media (max-width: 576px) {
+  .buttons {
+    flex-direction: column;
+  }
+  .buttons a {
+    margin: 2px 0;
+  }
+  h1 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 700px) {
+  .text {
+    width: 40%;
+  }
 }
