@@ -4,9 +4,9 @@ Primary colors
 #00277d 
 */
 .navWrap {
-  padding: 8px 0px;
+  padding: 10px;
   width: 100%;
-  box-shadow: #00000030 -9px 2px 12px 0px;
+  box-shadow: #00000030 3px 2px 12px 1px;
   border-radius: 0px;
 }
 nav h1 {
