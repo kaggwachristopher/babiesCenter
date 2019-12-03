@@ -34,12 +34,24 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET, POST, OPTIONS, PUT, PATCH, DELETE"
+  );
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 app.use("/api/appoitments", appoitments);
 app.use("/api/accounts", accountsRoutes);
 app.get("*", (req, res) => {
   res.status(404).send("Page Not found");
 });
-app.listen(80, err => {
+app.listen(3000, err => {
   if (err) console.error(err);
   mongoose
     .connect("mongodb://localhost:27017/jbc", {
@@ -47,5 +59,5 @@ app.listen(80, err => {
       useUnifiedTopology: true
     })
     .then(() => console.info("Now connected to MongoDB!"))
-    .then(() => console.info("Server listening port: 5000"));
+    .then(() => console.info("Server listening port: 80"));
 });
