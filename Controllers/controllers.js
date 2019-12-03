@@ -2,11 +2,9 @@ const User = require("../models/user");
 
 const controllers = {};
 
-
-controllers.registration = (req, res) => {
-  res.redirect("/register");
+controllers.register = (req, res) => {
+  res.status(201).send("User has been created successfully");
 };
-
 controllers.login = (req, res) => {
   if (req.principal) {
   }
