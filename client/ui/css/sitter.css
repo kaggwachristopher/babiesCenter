@@ -1,0 +1,14 @@
+/**
+Primary colors
+#966758
+#a92020
+*/
+body {
+  background: url(../images/sleeping.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heading {
+  color: #a92020;
+}

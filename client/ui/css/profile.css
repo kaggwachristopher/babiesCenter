@@ -1,0 +1,47 @@
+.main {
+	padding-top: 20px;
+}
+.back {
+	margin-top: 10px;
+}
+.details {
+	margin: 0px 15px;
+	min-width: 230px;
+}
+.pic {
+	margin: 0px 15px;
+}
+.pic img {
+	width: 300px;
+	border: solid 1px;
+	height: 300px;
+	object-fit: cover;
+	transition-duration: 0.5s;
+}
+.pic img:hover {
+	transition-duration: 1s;
+	/* box-sizing: border-box; */
+	border-radius: 20px;
+}
+.profileBox {
+	border: solid 1px;
+	padding: 20px;
+}
+.name {
+}
+.id {
+}
+.parent {
+	text-decoration: underline;
+}
+.id,
+.name,
+.parent {
+	margin: 10px 0;
+	font-size: 25px;
+}
+@media (max-width: 690px) {
+	.profileBox {
+		flex-direction: column-reverse;
+	}
+}

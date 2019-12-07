@@ -1,8 +1,19 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import VueRouter from "vue-router";
+import "./assets/css/grid.min.css";
+import "./assets/css/baby.css";
+import Routes from "./routes/routes.js";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+
+Vue.use(VueRouter);
+const router = new VueRouter({
+  routes: Routes,
+  mode: "history"
+});
 
 new Vue({
   render: h => h(App),
-}).$mount('#app')
+  router: router
+}).$mount("#app");
