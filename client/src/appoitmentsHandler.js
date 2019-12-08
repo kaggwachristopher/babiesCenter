@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:3000/api/appoitments/";
+const url = "http://localhost/api/appoitments/";
 
 class AppoitmentsHandler {
   static getAppoitments() {

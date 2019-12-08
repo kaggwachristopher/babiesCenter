@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login V10</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <div class="">
+      <div class="container-login100">
+        <div class="wrap-login100 p-t-50 p-b-90">
+          <form class="login100-form validate-form flex-sb flex-w">
+            <span class="login100-form-title p-b-51">
+              Create JBC Account
+            </span>
+            <div
+              class="wrap-input100 validate-input m-b-16"
+              data-validate="Username is required"
+            >
+              <input
+                class="input100"
+                type="text"
+                name="firstName"
+                placeholder="First Name"
+              />
+              <span class="focus-input100"></span>
+            </div>
+            <div
+              class="wrap-input100 validate-input m-b-16"
+              data-validate="Last Name is required"
+            >
+              <input
+                class="input100"
+                type="text"
+                name="lastName"
+                placeholder="Last Name"
+              />
+              <span class="focus-input100"></span>
+            </div>
+            <div
+              class="wrap-input100 validate-input m-b-16"
+              data-validate="Username is required"
+            >
+              <input
+                class="input100"
+                type="email"
+                name="username"
+                placeholder="Email Address"
+              />
+              <span class="focus-input100"></span>
+            </div>
+
+            <div
+              class="wrap-input100 validate-input m-b-16"
+              data-validate="Password is required"
+            >
+              <input
+                class="input100"
+                type="password"
+                name="password"
+                placeholder="Password"
+              />
+              <span class="focus-input100"></span>
+            </div>
+            <div
+              class="wrap-input100 validate-input m-b-16"
+              data-validate="Password is required"
+            >
+              <input
+                class="input100"
+                type="password"
+                name="confirmPassword"
+                placeholder="Confirm Password"
+              />
+              <span class="focus-input100"></span>
+            </div>
+            <div
+              class="wrap-input100 validate-input m-b-16"
+              data-validate="A role is required"
+            >
+              <input
+                class=""
+                type="radio"
+                name="role"
+                value="supervisor"
+                id="supervisor"
+              />
+              <label for="supervisor">Supervisor</label>
+              <input
+                class=""
+                type="radio"
+                name="role"
+                id="sitter"
+                value="sitter"
+              />
+              <label for="sitter">Sitter</label>
+              <input
+                class=""
+                type="radio"
+                name="role"
+                id="customer"
+                value="customer"
+              />
+              <label for="customer">Customer</label>
+              <span class="focus-input100"></span>
+            </div>
+            <div class="container-login100-form-btn m-t-17">
+              <button class="login100-form-btn">
+                Register
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
